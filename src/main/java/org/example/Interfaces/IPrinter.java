@@ -1,4 +1,5 @@
 package org.example.Interfaces;
 
-public interface IPrinter {
+public interface IPrinter<T> {
+    void print(T object);
 }
