@@ -10,5 +10,7 @@ import junit.framework.TestSuite;
 public class AppTest 
     extends TestCase
 {
-
+    public void testName() {
+        assertTrue(true);
+    }
 }
